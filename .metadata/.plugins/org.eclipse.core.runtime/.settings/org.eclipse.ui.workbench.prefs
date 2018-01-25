@@ -1,0 +1,4 @@
+//org.eclipse.ui.commands/state/com.ifx.davex.pin.allocator.packageview.showpinpadinfo/org.eclipse.ui.commands.radioState=pinpad
+RUN_IN_BACKGROUND=true
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+eclipse.preferences.version=1

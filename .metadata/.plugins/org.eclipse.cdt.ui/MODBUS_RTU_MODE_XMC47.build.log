@@ -1,0 +1,61 @@
+17:31:40 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+../main.c:85:0: warning: "PI" redefined
+'Invoking: ARM-GCC C Compiler'
+ #define PI      3.1415926535897932384626433832795f
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+ ^
+'Finished building: ../main.c'
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:503:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:510:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:595:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:740:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:503:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:746:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:510:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  29560	    356	  64668	  94584	  17178	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+
+17:31:42 Build Finished (took 1s.937ms)
+
