@@ -4770,3 +4770,197 @@ java.lang.NullPointerException
 	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1087)
 	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:429)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2018-01-26 10:40:18.132 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY org.eclipse.core.variables 4 120 2018-01-26 10:40:28.437
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_path' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.core.variables 4 120 2018-01-26 10:40:28.437
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_gdbserver' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-26 10:40:32.259
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-26 10:40:32.259
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Abel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY SOLVER 1 0 2018-01-26 10:40:33.413
+!MESSAGE USER_ACTION : Default solver exe path is: C:\DAVEv4-64Bit\DAVE-4.3.2\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2018-01-26 10:40:33.538
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2018-01-26 10:40:33.538
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2018-01-26 10:40:33.710
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2018-01-26 10:40:34.115
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.7.00.F144.ALL] is: 405 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:34.459
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 78 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:50.928
+!MESSAGE USER_ACTION : Active project:MODBUS_RTU_MODE_XMC47[ Software ID:XMC4.7.00.F144.ALL]
+
+!ENTRY COMMON 1 0 2018-01-26 10:40:52.909
+!MESSAGE Time Taken By De-Serialization  : 1216 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-26 10:40:52.909
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:53.190
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 2262 msec 
+
+!ENTRY DAVE CE 4 0 2018-01-26 10:40:53.440
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-26 10:40:53.440
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-26 10:40:53.440
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-26 10:40:53.440
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:53.455
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 249 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:53.455
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:53.455
+!MESSAGE USER_ACTION : Time taken for updating views is: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:55.062
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1607 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:56.544
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 22163 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 10:40:56.809
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-26 10:40:56.856
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/Examples/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-26 10:41:01.349
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-26 10:41:06.263
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/Contributed/v4.1//daveSite.xml
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2018-01-26 18:11:36.450
+!MESSAGE Debug session 'MODBUS_RTU_MODE_XMC47 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-26 18:21:04.714
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-26 18:21:04.804
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-26 18:21:05.112
+!MESSAGE Time Taken By Serialization  : 308 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-26 18:21:05.443
+!MESSAGE ****************Cleaning project data:MODBUS_RTU_MODE_XMC47*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-26 18:21:05.518
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 308 msec 
+
+!ENTRY SOLVER 1 0 2018-01-26 18:21:05.519
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2018-01-26 18:21:05.770
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-01-26 18:21:07.774
+!MESSAGE An internal error occurred during: "Win32 refresh daemon".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.asyncRefresh(FileSystemResourceManager.java:137)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.isSynchronized(FileSystemResourceManager.java:722)
+	at org.eclipse.core.internal.resources.Resource.isSynchronized(Resource.java:1543)
+	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor$Handle.postRefreshRequest(Win32Monitor.java:204)
+	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor$ResourceHandle.handleNotification(Win32Monitor.java:293)
+	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor.waitForNotification(Win32Monitor.java:593)
+	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor.run(Win32Monitor.java:507)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

@@ -85,7 +85,7 @@
 #define PI      3.1415926535897932384626433832795f
 #define PI2     6.283185307179586476925286766559f
 #define PI56    2.9845130209103035765395112141155f
-#define SIZE_VECTOR  10
+#define SIZE_VECTOR  200
 
 
 void init_filters(void);
@@ -110,9 +110,11 @@ float V_AB[2]={0.0f, 0.0f};			// alpha beta voltage
 float I_AB[2]={0.0f, 0.0f};			// alpha beta current
 
 float active_power = 0.0f, reactive_power = 0.0f;
+float aparent_power = 0.0f, power_factor = 0.0f;
 float angle, angle250, angle350, aux_250 = 0.0f, aux_350 = 0.0f, reset_enable = 0;
 float aux1, aux2, aux3, aux4;
-double delayed_var1[SIZE_VECTOR], delayed_var2[SIZE_VECTOR], delayed_var3[SIZE_VECTOR];
+double delayed_v_alfa[SIZE_VECTOR], delayed_v_beta[SIZE_VECTOR];
+double v_alfa_delayed, i_alfa_delayed;
 int16_t position = 0;
 
 /****************************************************************
@@ -546,9 +548,9 @@ void ADC_READ_VOLTAGE(void){
 
 	aux1 = filter_50hz(i_alfa, 8);
 	aux2 = filter_50hz(i_beta, 9);
+*/
 
-
-	****  Atraso de 5ms (50 amostras)  ******
+	//****  Atraso de 20ms (200 amostras)  ******
 
 		if (position>(SIZE_VECTOR-2)){
 			position=0;
@@ -557,11 +559,12 @@ void ADC_READ_VOLTAGE(void){
 		else {
 			position += 1;
 		}
-		aux3 = delayed_var1[position];
-		delayed_var1[position]  = aux1;
-		aux4 = delayed_var2[position];
-		delayed_var1[position]  = aux2;
-*/
+
+		v_alfa_delayed = delayed_v_alfa[position];
+		delayed_v_alfa[position]  = v_alfa;
+		//i_alfa_delayed = delayed_v_beta[position];
+		//delayed_v_beta[position]  = i_alfa;
+
 
 
 
@@ -572,12 +575,27 @@ void ADC_READ_VOLTAGE(void){
 	active_power = v_alfa*i_alfa + v_beta*i_beta;
 	reactive_power = v_beta*i_alfa - v_alfa*i_beta;
 
+
+
+
+
 	//active_power *= 3;
 	//reactive_power *= 3;
 
 	active_power   = filter_5hz(active_power, 6);
 	reactive_power = filter_5hz(reactive_power, 7);
+	active_power   *= 1.5f;
+	reactive_power *= 1.5f;
 
+	aparent_power = sqrtf(active_power*active_power + reactive_power * reactive_power);
+	power_factor = atan2f(reactive_power, active_power);
+	power_factor = cosf(power_factor);
+
+	active_power   = filter_5hz(active_power, 10);
+		reactive_power = filter_5hz(reactive_power, 11);
+
+	aparent_power   = filter_5hz(aparent_power, 8);
+	power_factor   = filter_5hz(power_factor, 9);
 
 	DIGITAL_IO_SetOutputLow(&P_1_0);
 }

@@ -11898,3 +11898,533 @@ C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/a
 "C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
 'Finished building: MODBUS_RTU_MODE_XMC47.lst'
 
+13:27:46 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+../main.c:85:0: warning: "PI" redefined
+ #define PI      3.1415926535897932384626433832795f
+ ^
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:504:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:511:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:605:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:750:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:504:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:756:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:511:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  30968	    460	  64676	  96104	  17768	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+13:30:52 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../main.c:85:0: warning: "PI" redefined
+'Building file: ../main.c'
+ #define PI      3.1415926535897932384626433832795f
+'Invoking: ARM-GCC C Compiler'
+ ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:504:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:511:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:606:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:751:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:504:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:757:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:511:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Finished building: ../main.c'
+
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35220	    460	  64676	 100356	  18804	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+13:33:16 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35220	    460	  64676	 100356	  18804	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+13:44:46 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../main.c:85:0: warning: "PI" redefined
+'Building file: ../main.c'
+ #define PI      3.1415926535897932384626433832795f
+ ^
+'Invoking: ARM-GCC C Compiler'
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:504:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:511:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:608:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:753:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:504:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:759:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:511:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35260	    460	  64676	 100396	  1882c	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+13:49:52 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+../main.c:85:0: warning: "PI" redefined
+'Invoking: ARM-GCC C Compiler'
+ #define PI      3.1415926535897932384626433832795f
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+ ^
+'Finished building: ../main.c'
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:504:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:511:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:611:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:756:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:504:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:762:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:511:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35300	    460	  64676	 100436	  18854	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+17:54:40 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+../main.c:85:0: warning: "PI" redefined
+ #define PI      3.1415926535897932384626433832795f
+ ^
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:505:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:512:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:613:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:758:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:505:2: note: previous implicit declaration of 'abc_AB' was here
+'Invoking: ARM-GCC C Compiler'
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:764:6: warning: conflicting types for 'abc_AB_Dy'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+ void abc_AB_Dy(float *abc, float *AB){
+'Finished building: ../main.c'
+      ^
+
+../main.c:512:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35460	    460	  69272	 105192	  19ae8	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+18:04:12 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../main.c:85:0: warning: "PI" redefined
+'Building file: ../main.c'
+ #define PI      3.1415926535897932384626433832795f
+'Invoking: ARM-GCC C Compiler'
+ ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+'Finished building: ../main.c'
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:505:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:512:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:613:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:758:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:505:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:764:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:512:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35460	    460	  69272	 105192	  19ae8	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+18:11:52 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../main.c:85:0: warning: "PI" redefined
+'Building file: ../main.c'
+ #define PI      3.1415926535897932384626433832795f
+'Invoking: ARM-GCC C Compiler'
+ ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:505:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:512:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:613:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:758:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:505:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:764:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:512:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+'Finished building: ../main.c'
+
+  ^
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35460	    460	  69260	 105180	  19adc	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+18:16:02 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../main.c:85:0: warning: "PI" redefined
+'Building file: ../main.c'
+ #define PI      3.1415926535897932384626433832795f
+'Invoking: ARM-GCC C Compiler'
+ ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+'Finished building: ../main.c'
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:505:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:512:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:613:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:758:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:505:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:764:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:512:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35396	    460	  67660	 103516	  1945c	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
+18:18:23 **** Incremental Build of configuration Debug for project MODBUS_RTU_MODE_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+../main.c:85:0: warning: "PI" redefined
+'Invoking: ARM-GCC C Compiler'
+ #define PI      3.1415926535897932384626433832795f
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/XMCLib/inc" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Libraries" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/include" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/rtu" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/modbus/ascii" -I"C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/freemodbus-v1.5.0/port" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+ ^
+'Finished building: ../main.c'
+In file included from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/cmsis_dsp.h:57:0,
+
+                 from C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/DAVE.h:82,
+                 from ../main.c:42:
+C:/Workspaces/power_measurement/MODBUS_RTU_MODE_XMC47/Dave/Generated/CMSIS_DSP/arm_math.h:349:0: note: this is the location of the previous definition
+   #define PI               3.14159265358979f
+ ^
+../main.c: In function 'CCU43_1_IRQHandler':
+../main.c:505:2: warning: implicit declaration of function 'abc_AB' [-Wimplicit-function-declaration]
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:512:2: warning: implicit declaration of function 'abc_AB_Dy' [-Wimplicit-function-declaration]
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+../main.c: At top level:
+../main.c:613:9: warning: return type of 'main' is not 'int' [-Wmain]
+ int32_t main(void)
+         ^
+../main.c:758:6: warning: conflicting types for 'abc_AB'
+ void abc_AB(float *abc, float *AB){
+      ^
+../main.c:505:2: note: previous implicit declaration of 'abc_AB' was here
+  abc_AB(I_abc, I_AB);
+  ^
+../main.c:764:6: warning: conflicting types for 'abc_AB_Dy'
+ void abc_AB_Dy(float *abc, float *AB){
+      ^
+../main.c:512:2: note: previous implicit declaration of 'abc_AB_Dy' was here
+  abc_AB_Dy(V_abc, V_AB);
+  ^
+'Building target: MODBUS_RTU_MODE_XMC47.elf'
+'Invoking: ARM-GCC C++ Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-g++" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -Wl,-Map,"MODBUS_RTU_MODE_XMC47.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "MODBUS_RTU_MODE_XMC47.elf" "@objects.rsp"  -lm
+'Finished building target: MODBUS_RTU_MODE_XMC47.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "MODBUS_RTU_MODE_XMC47.elf" "MODBUS_RTU_MODE_XMC47.hex"
+'Finished building: MODBUS_RTU_MODE_XMC47.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "MODBUS_RTU_MODE_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+  35396	    460	  67668	 103524	  19464	MODBUS_RTU_MODE_XMC47.elf
+'Finished building: MODBUS_RTU_MODE_XMC47.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "MODBUS_RTU_MODE_XMC47.elf" > "MODBUS_RTU_MODE_XMC47.lst"
+'Finished building: MODBUS_RTU_MODE_XMC47.lst'
+
