@@ -62,6 +62,8 @@
 		
 #define ADC_READ_VOLTAGE IRQ_Hdlr_57
 		
+#define scopeUpdateInterrupt IRQ_Hdlr_56
+		
 /***********************************************************************************************************************
  * EXTERN DECLARATIONS
 ***********************************************************************************************************************/
@@ -71,6 +73,8 @@ extern const INTERRUPT_t INTERRUPT_TX;
 extern const INTERRUPT_t INTERRUPT_RX; 
 	
 extern const INTERRUPT_t INTERRUPT_0; 
+	
+extern const INTERRUPT_t INTERRUPT_1; 
 	
 #endif  /* INTERRUPT_EXTERN_H */
 

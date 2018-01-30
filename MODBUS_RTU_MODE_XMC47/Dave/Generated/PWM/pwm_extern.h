@@ -93,6 +93,11 @@ extern PWM_t ADC_PWM;
 
 
 
+
+extern PWM_t SCOPE_PWM;
+
+
+
   
 #endif
 

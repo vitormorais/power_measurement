@@ -4964,3 +4964,2072 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor.waitForNotification(Win32Monitor.java:593)
 	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor.run(Win32Monitor.java:507)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2018-01-27 12:59:16.464 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY org.eclipse.core.variables 4 120 2018-01-27 12:59:24.734
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_path' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.core.variables 4 120 2018-01-27 12:59:24.734
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_gdbserver' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-27 12:59:30.880
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-27 12:59:30.896
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Abel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY SOLVER 1 0 2018-01-27 12:59:31.020
+!MESSAGE USER_ACTION : Default solver exe path is: C:\DAVEv4-64Bit\DAVE-4.3.2\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2018-01-27 12:59:31.145
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2018-01-27 12:59:31.145
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2018-01-27 12:59:31.348
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2018-01-27 12:59:31.956
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.7.00.F144.ALL] is: 608 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:32.284
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:41.706
+!MESSAGE USER_ACTION : Active project:MODBUS_RTU_MODE_XMC47[ Software ID:XMC4.7.00.F144.ALL]
+
+!ENTRY COMMON 1 0 2018-01-27 12:59:43.922
+!MESSAGE Time Taken By De-Serialization  : 1311 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-27 12:59:43.937
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:44.358
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 2652 msec 
+
+!ENTRY DAVE CE 4 0 2018-01-27 12:59:44.608
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-27 12:59:44.608
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-27 12:59:44.608
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-27 12:59:44.624
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:44.624
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 266 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:44.639
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 15 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:44.639
+!MESSAGE USER_ACTION : Time taken for updating views is: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:46.230
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1591 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:46.464
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 14180 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 12:59:46.776
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-27 12:59:46.839
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/Examples/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-27 12:59:58.913
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-27 12:59:58.913
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-27 12:59:58.929
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/DAVE_Libs/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-27 12:59:58.929
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/Contributed/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-27 12:59:58.929
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/DAVE_Libs/Contributed/v4.1//daveSite.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-01-27 12:59:58.976
+!MESSAGE Unknown Host: http://dave.infineon.com/Luna/v4.3/CE/content.xml
+!STACK 0
+java.net.UnknownHostException: dave.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:113)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-01-27 12:59:58.976
+!MESSAGE Unknown Host: http://dave.infineon.com/Luna/v4.1/ARM-GCC-Update/content.xml
+!STACK 0
+java.net.UnknownHostException: dave.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:113)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-01-27 12:59:58.991
+!MESSAGE Unknown Host: http://dave.infineon.com/Luna/v4.3/Debugger/content.xml
+!STACK 0
+java.net.UnknownHostException: dave.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:113)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-01-27 12:59:58.991
+!MESSAGE Unknown Host: http://dave.infineon.com/Luna/v4.3/MikroE/Debugger/content.xml
+!STACK 0
+java.net.UnknownHostException: dave.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:113)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-01-27 12:59:58.991
+!MESSAGE Unknown Host: http://dave.infineon.com/Luna/v4.1/Solver_emWin_update/content.xml
+!STACK 0
+java.net.UnknownHostException: dave.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:113)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-01-27 12:59:58.991
+!MESSAGE Unknown Host: http://dave.infineon.com/Luna/v4.3/MikroE/BMI/content.xml
+!STACK 0
+java.net.UnknownHostException: dave.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:113)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-27 19:41:33.755
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-27 19:41:33.833
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-27 19:41:34.176
+!MESSAGE Time Taken By Serialization  : 343 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-27 19:41:34.629
+!MESSAGE ****************Cleaning project data:MODBUS_RTU_MODE_XMC47*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-27 19:41:34.722
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 390 msec 
+
+!ENTRY SOLVER 1 0 2018-01-27 19:41:34.722
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2018-01-27 19:41:34.988
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+!SESSION 2018-01-29 09:36:34.492 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY org.eclipse.core.variables 4 120 2018-01-29 09:36:42.239
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_path' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.core.variables 4 120 2018-01-29 09:36:42.239
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_gdbserver' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-29 09:36:45.671
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-29 09:36:45.671
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Abel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY SOLVER 1 0 2018-01-29 09:36:46.935
+!MESSAGE USER_ACTION : Default solver exe path is: C:\DAVEv4-64Bit\DAVE-4.3.2\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2018-01-29 09:36:47.060
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2018-01-29 09:36:47.060
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2018-01-29 09:36:47.263
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2018-01-29 09:36:47.668
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.7.00.F144.ALL] is: 405 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:36:47.887
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:01.318
+!MESSAGE USER_ACTION : Active project:MODBUS_RTU_MODE_XMC47[ Software ID:XMC4.7.00.F144.ALL]
+
+!ENTRY COMMON 1 0 2018-01-29 09:37:03.112
+!MESSAGE Time Taken By De-Serialization  : 1092 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 09:37:03.128
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:03.377
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 2059 msec 
+
+!ENTRY DAVE CE 4 0 2018-01-29 09:37:03.658
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 09:37:03.658
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 09:37:03.658
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 09:37:03.658
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:03.674
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 297 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:03.674
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:03.689
+!MESSAGE USER_ACTION : Time taken for updating views is: 15 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:05.171
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1482 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:05.639
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 17752 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 09:37:06.029
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-29 09:37:06.154
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/Examples/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-29 09:37:07.964
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-01-29 09:37:12.566
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/Contributed/v4.1//daveSite.xml
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2018-01-29 10:10:10.830
+!MESSAGE Debug session 'MODBUS_RTU_MODE_XMC47 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:22:40.171
+!MESSAGE USER_ACTION : Time taken for opening editor is: 338 msec 
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:22:48.977
+!MESSAGE USER_ACTION : Time taken for opening editor is: 131 msec 
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:22:55.649
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\XMC4.7.00.F144.ALL\device\xmc4700\0\MANIFEST\xmc4700.dd
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:23:02.964
+!MESSAGE USER_ACTION : App Getting Added: INTERRUPT [4.0.8]
+
+!ENTRY SOLVER 1 0 2018-01-29 13:23:02.980
+!MESSAGE USER_ACTION : Creating an APP: INTERRUPT [4.0.8]
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:23:03.209
+!MESSAGE USER_ACTION : CASE-1 PR->PR
+ CPU_CTRL_XMC4 [4.0.2] lStoreAppVersion: 4.0.14:p
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:23:03.335
+!MESSAGE USER_ACTION : Created APP: INTERRUPT [4.0.8]-->http://resources/4.0.8/app/INTERRUPT/3
+
+!ENTRY SOLVER 1 0 2018-01-29 13:23:03.377
+!MESSAGE USER_ACTION : Library store ECO file :C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\XMC4.7.00.F144.ALL\device\xmc4700\0\MANIFEST\solver_data\xmc4500_solver.eco
+
+!ENTRY SOLVER 1 0 2018-01-29 13:23:03.720
+!MESSAGE USER_ACTION : Copied ECO file to temp location :C:\Workspaces\power_measurement\.metadata\.plugins\solver_data\XMC4.7.00.F144.ALL\xmc4500_solver.eco
+
+!ENTRY SOLVER 1 0 2018-01-29 13:23:06.866
+!MESSAGE USER_ACTION : Loaded ECO file :C:\Workspaces\power_measurement\.metadata\.plugins\solver_data\XMC4.7.00.F144.ALL\xmc4500_solver.eco
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.357
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\peripheral\vadc\0\MANIFEST\vadc.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.489
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.1\peripheral\ccu4\3\MANIFEST\ccu4.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.514
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\47.0.0\peripheral\scu\0\MANIFEST\scu.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.519
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\debug_port\0\MANIFEST\debug_port.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.535
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\1\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.564
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\LQFP144.0.0\devicepackage\0\MANIFEST\devicepackage.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.608
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\peripheral\cpu\0\MANIFEST\cpu.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.688
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\4\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.712
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\0\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.721
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\14\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:23:08.741
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\peripheral\usic\0\MANIFEST\usic.dd
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:23:08.760
+!MESSAGE Time taken for processing complete solver result is: 488 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:23:08.760
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:23:08.760
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:23:08.822
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-29 13:23:09.181
+!MESSAGE Time Taken By Serialization  : 359 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:23:09.296
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:23:09.607
+!MESSAGE Time taken for serialization in msec: 847
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:23:09.669
+!MESSAGE USER_ACTION : Time taken for refreshing INTERRUPT/4.0.8/2 editor is : 1
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:23:39.447
+!MESSAGE USER_ACTION : App Getting Added: PWM_CCU4 [4.1.22]
+
+!ENTRY SOLVER 1 0 2018-01-29 13:23:39.484
+!MESSAGE USER_ACTION : Creating an APP: PWM_CCU4 [4.1.22]
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:23:39.784
+!MESSAGE USER_ACTION : CASE-1 PR->PR
+ GLOBAL_CCU4 [4.1.4] lStoreAppVersion: 4.1.12:p
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:24:04.867
+!MESSAGE USER_ACTION : Created APP: PWM_CCU4 [4.1.22]-->http://resources/4.1.22/app/PWM_CCU4/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:06.403
+!MESSAGE Time taken for processing complete solver result is: 91 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:06.404
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:06.404
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:06.456
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-29 13:24:06.717
+!MESSAGE Time Taken By Serialization  : 260 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:06.829
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:07.078
+!MESSAGE Time taken for serialization in msec: 673
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:24:07.369
+!MESSAGE USER_ACTION : Time taken for refreshing INTERRUPT/4.0.8/2 editor is : 1
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:24:25.466
+!MESSAGE USER_ACTION : Time taken for opening editor is: 21 msec 
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:24:30.776
+!MESSAGE USER_ACTION : Time taken for opening editor is: 42 msec 
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:24:42.261
+!MESSAGE USER_ACTION : Time taken for opening editor is: 64 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:24:50.986
+!MESSAGE USER_ACTION : Remove Option: Remove this APP and all APPs that are requiring it (Recursively up the tree)
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:24:51.095
+!MESSAGE USER_ACTION : Deleting resource : http://resources/4.1.22/app/PWM_CCU4/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:52.683
+!MESSAGE Time taken for processing complete solver result is: 60 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:52.683
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:52.683
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:52.720
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-29 13:24:52.920
+!MESSAGE Time Taken By Serialization  : 199 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:53.026
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:24:53.159
+!MESSAGE Time taken for serialization in msec: 476
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:24:53.291
+!MESSAGE USER_ACTION : Time taken for refreshing PWM/4.1.10/0 editor is : 1
+
+!ENTRY SOLVER 1 0 2018-01-29 13:24:53.291
+!MESSAGE Time Taken By Solver for UI Action: 2189 ms
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:25:00.539
+!MESSAGE USER_ACTION : Time taken for opening editor is: 34 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:25:33.754
+!MESSAGE USER_ACTION : App Getting Added: PWM [4.1.10]
+
+!ENTRY SOLVER 1 0 2018-01-29 13:25:33.801
+!MESSAGE USER_ACTION : Creating an APP: PWM [4.1.10]
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:25:33.881
+!MESSAGE USER_ACTION : CASE-1 PR->PR
+ GLOBAL_CCU4 [4.0.2] lStoreAppVersion: 4.1.12:p
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:25:35.290
+!MESSAGE USER_ACTION : Created APP: PWM [4.1.10]-->http://resources/4.1.10/app/PWM/1
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:25:36.786
+!MESSAGE Time taken for processing complete solver result is: 75 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:25:36.786
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:25:36.787
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:25:36.842
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-29 13:25:37.100
+!MESSAGE Time Taken By Serialization  : 258 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:25:37.199
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:25:37.295
+!MESSAGE Time taken for serialization in msec: 509
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:25:37.788
+!MESSAGE USER_ACTION : Time taken for refreshing PWM/4.1.10/0 editor is : 3
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:25:42.550
+!MESSAGE USER_ACTION : Time taken for opening editor is: 153 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:13.848
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:13.848
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:13.956
+!MESSAGE Time taken for serialization in msec: 107
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:13.956
+!MESSAGE *****************************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:13.958
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:14.021
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-29 13:26:14.200
+!MESSAGE Time Taken By Serialization  : 179 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:14.302
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:26:25.405
+!MESSAGE USER_ACTION : Setting value = "1000" of "gint_PWM_Frequency" in APP: PWM/4.1.10/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:25.410
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:25.410
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:25.517
+!MESSAGE Time taken for serialization in msec: 106
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:25.517
+!MESSAGE *****************************
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:26:34.593
+!MESSAGE USER_ACTION : Time taken for opening editor is: 80 msec 
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:26:37.123
+!MESSAGE USER_ACTION : Time taken for opening editor is: 54 msec 
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:26:40.549
+!MESSAGE USER_ACTION : Setting value = "10000" of "gint_PWM_Frequency" in APP: PWM/4.1.10/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:40.555
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:40.556
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:40.664
+!MESSAGE Time taken for serialization in msec: 109
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:40.664
+!MESSAGE *****************************
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:26:49.344
+!MESSAGE USER_ACTION : Setting value = "1000" of "gint_PWM_Frequency" in APP: PWM/4.1.10/1
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:49.365
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:49.365
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:49.442
+!MESSAGE Time taken for serialization in msec: 77
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:26:49.442
+!MESSAGE *****************************
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:27:00.509
+!MESSAGE USER_ACTION : Setting value = "true" of "gcheck_Start_During_Initilization" in APP: PWM/4.1.10/1
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:00.517
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:00.517
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:00.604
+!MESSAGE Time taken for serialization in msec: 87
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:00.605
+!MESSAGE *****************************
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:27:06.422
+!MESSAGE USER_ACTION : Setting value = "true" of "gcheck_Period_Match_Interrupt_Initilize" in APP: PWM/4.1.10/1
+
+!ENTRY SOLVER 1 0 2018-01-29 13:27:06.501
+!MESSAGE USER_ACTION : Removed Query statement: signal('pwm$02122808441$1',pmus_omds,'pwm$02122808441$1$pmus_omds'),
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:07.942
+!MESSAGE Time taken for processing complete solver result is: 50 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:07.942
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:07.942
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:08.002
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-29 13:27:08.214
+!MESSAGE Time Taken By Serialization  : 212 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:08.291
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:08.373
+!MESSAGE Time taken for serialization in msec: 431
+
+!ENTRY COMMON 1 0 2018-01-29 13:27:08.896
+!MESSAGE USER_ACTION : checkVersioningForActiveProject: Reloading project....
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:09.213
+!MESSAGE ****************Cleaning project data:MODBUS_RTU_MODE_XMC47*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:09.249
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 251 msec 
+
+!ENTRY SOLVER 1 0 2018-01-29 13:27:09.312
+!MESSAGE Time Taken By Solver for UI Action: 2817 ms
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:27:09.312
+!MESSAGE 
+
+***START of Exception Info***
+null
+com.ifx.davex.ce.core.application.manager.ApplicationModelManager.getApplicationModelApps(ApplicationModelManager.java:1035)
+com.ifx.davex.ce.core.generic.CommonAPIUtility.getApplicationModelApps(CommonAPIUtility.java:1232)
+com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager.removeUserDefinedConnections(GroovyEMFInterfaceManager.java:2093)
+com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager.afterSetValue(GroovyEMFInterfaceManager.java:1899)
+com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager.access$1(GroovyEMFInterfaceManager.java:1792)
+com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager$1$1.run(GroovyEMFInterfaceManager.java:1772)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:09.312
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:09.313
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:27:09.313
+!MESSAGE 
+
+***START of Exception Info***
+null
+com.ifx.davex.ce.core.application.manager.ApplicationModelManager.logIfMisMatch(ApplicationModelManager.java:1368)
+com.ifx.davex.ce.core.application.manager.ApplicationModelManager.serializeOnRAM(ApplicationModelManager.java:1878)
+com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager.afterSetValue(GroovyEMFInterfaceManager.java:1910)
+com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager.access$1(GroovyEMFInterfaceManager.java:1792)
+com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager$1$1.run(GroovyEMFInterfaceManager.java:1772)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:19.454
+!MESSAGE USER_ACTION : Active project:MODBUS_RTU_MODE_XMC47[ Software ID:XMC4.7.00.F144.ALL]
+
+!ENTRY COMMON 1 0 2018-01-29 13:27:20.383
+!MESSAGE Time Taken By De-Serialization  : 824 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:27:20.386
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:20.494
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 1041 msec 
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:27:20.658
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:27:20.659
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:27:20.659
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:27:20.659
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.initAndReloadLastSolverResult(SolverManager.java:501)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer$1$1.run(DaveEventInitializer.java:358)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:20.664
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 169 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:20.665
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 1 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:20.665
+!MESSAGE USER_ACTION : Time taken for updating views is: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:21.072
+!MESSAGE USER_ACTION : Time taken for rendering views is: 407 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-29 13:27:21.385
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 12387 msec 
+
+!ENTRY org.eclipse.ui 4 0 2018-01-29 13:27:21.559
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager.setValue(GroovyEMFInterfaceManager.java:1738)
+	at com.ifx.davex.ce.core.application.manager.GroovyEMFInterfaceManager.setValue(GroovyEMFInterfaceManager.java:1518)
+	at com.ifx.davex.ui.editor.ms.DaveCEEditorUtil.getAffectedGroovyObject(DaveCEEditorUtil.java:615)
+	at com.ifx.davex.ui.editor.ms.DaveCESelectionAdapter.widgetSelected(DaveCESelectionAdapter.java:49)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:27:33.505
+!MESSAGE USER_ACTION : Time taken for opening editor is: 128 msec 
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:27:40.742
+!MESSAGE USER_ACTION : Time taken for opening editor is: 73 msec 
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:27:43.125
+!MESSAGE USER_ACTION : Time taken for opening editor is: 76 msec 
+
+!ENTRY PIN_CONFIG 1 0 2018-01-29 13:28:07.638
+!MESSAGE USER_ACTION : Opening Manual Pin Allocator Dialog.!
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.693
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\2\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.702
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\3\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.706
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\5\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.711
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\6\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.715
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\p\15\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.717
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\usb_port\0\MANIFEST\usb_port.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.719
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\hcu_port\0\MANIFEST\hcu_port.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.720
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\reset_port\0\MANIFEST\reset_port.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.722
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\crystal_port\0\MANIFEST\crystal_port.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.725
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\rtc_port\0\MANIFEST\rtc_port.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.727
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\power_port\0\MANIFEST\power_port.dd
+
+!ENTRY APPSTORE 1 0 2018-01-29 13:28:07.729
+!MESSAGE USER_ACTION : Loaded DD: C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\48.0.0\port\analogpower_port\0\MANIFEST\analogpower_port.dd
+
+!ENTRY PIN_CONFIG 1 0 2018-01-29 13:28:10.358
+!MESSAGE USER_ACTION : Manual Pin Allocator Dialog is closed..!
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:28:28.572
+!MESSAGE USER_ACTION : Time taken for opening editor is: 63 msec 
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 13:28:35.587
+!MESSAGE USER_ACTION : Time taken for opening editor is: 61 msec 
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:28:58.551
+!MESSAGE USER_ACTION : Setting value = "scopeUpdateInterrupt" of "gstring_handler" in APP: INTERRUPT/4.0.8/3
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:28:58.574
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:28:58.574
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:28:58.686
+!MESSAGE Time taken for serialization in msec: 112
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:28:58.687
+!MESSAGE *****************************
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:00.716
+!MESSAGE USER_ACTION : Opening HW Signal Connection Dialog.!
+
+!ENTRY SOLVER 1 0 2018-01-29 13:29:00.740
+!MESSAGE USER_ACTION : Library store ECO file :C:\Users\Abel\Infineon\D_LibraryStore_4.1\resources\XMC4.7.00.F144.ALL\device\xmc4700\0\MANIFEST\solver_data\xmc4500_solver.eco
+
+!ENTRY SOLVER 1 0 2018-01-29 13:29:00.790
+!MESSAGE USER_ACTION : Copied ECO file to temp location :C:\Workspaces\power_measurement\.metadata\.plugins\solver_data\XMC4.7.00.F144.ALL\xmc4500_solver.eco
+
+!ENTRY SOLVER 1 0 2018-01-29 13:29:00.792
+!MESSAGE USER_ACTION : Loaded ECO file :C:\Workspaces\power_measurement\.metadata\.plugins\solver_data\XMC4.7.00.F144.ALL\xmc4500_solver.eco
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:04.178
+!MESSAGE USER_ACTION : Signal Load : 7
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:09.778
+!MESSAGE USER_ACTION : HW Signal Connection Dialog is closed..!
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:13.489
+!MESSAGE USER_ACTION : Opening HW Signal Connection Dialog.!
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:17.565
+!MESSAGE USER_ACTION : HW Signal Connection Dialog is closed..!
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:20.567
+!MESSAGE USER_ACTION : Opening HW Signal Connection Dialog.!
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:22.548
+!MESSAGE USER_ACTION : Signal Load : 1
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:23.445
+!MESSAGE USER_ACTION : User selection (Signal Config) Source Virtual Signal : SCOPE_PWM --> event_period_match
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:23.448
+!MESSAGE USER_ACTION : Signal Selection : 3
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:24.726
+!MESSAGE USER_ACTION : Signal Load : 473
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:25.955
+!MESSAGE USER_ACTION : User selection (Signal Config) Target APP : SCOPE_PWM --> INTERRUPT_1
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:25.959
+!MESSAGE USER_ACTION : Signal Selection : 3
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:26.783
+!MESSAGE USER_ACTION : Signal Load : 5
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:28.485
+!MESSAGE USER_ACTION : User selection (Signal Config) Target Virtual Signal : SCOPE_PWM --> sr_irq
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:28.585
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.getQuery(SolverManager.java:204)
+com.ifx.davex.ce.core.solver.SolverManager.getSolution(SolverManager.java:130)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolution(ResourceManager.java:923)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolverInfoAndProcess(ResourceManager.java:996)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1175)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1114)
+com.ifx.davex.ce.core.signal.config.SignalUIController$CommonSelectionListener$1$1.run(SignalUIController.java:888)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:28.586
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.getQuery(SolverManager.java:204)
+com.ifx.davex.ce.core.solver.SolverManager.getSolution(SolverManager.java:130)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolution(ResourceManager.java:923)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolverInfoAndProcess(ResourceManager.java:996)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1175)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1114)
+com.ifx.davex.ce.core.signal.config.SignalUIController$CommonSelectionListener$1$1.run(SignalUIController.java:888)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:28.586
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.getQuery(SolverManager.java:204)
+com.ifx.davex.ce.core.solver.SolverManager.getSolution(SolverManager.java:130)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolution(ResourceManager.java:923)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolverInfoAndProcess(ResourceManager.java:996)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1175)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1114)
+com.ifx.davex.ce.core.signal.config.SignalUIController$CommonSelectionListener$1$1.run(SignalUIController.java:888)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:28.586
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.solver.SolverManager.getQuery(SolverManager.java:204)
+com.ifx.davex.ce.core.solver.SolverManager.getSolution(SolverManager.java:130)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolution(ResourceManager.java:923)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolverInfoAndProcess(ResourceManager.java:996)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1175)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.getSolutionFromSolver(ResourceManager.java:1114)
+com.ifx.davex.ce.core.signal.config.SignalUIController$CommonSelectionListener$1$1.run(SignalUIController.java:888)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+***END of Exception Info***
+
+
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:31.878
+!MESSAGE USER_ACTION : Signal Selection : 3393
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:35.148
+!MESSAGE USER_ACTION : HW Signal Connection Dialog is not closed without saving user configured data..!
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:29:35.982
+!MESSAGE Time taken for processing complete solver result is: 44 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:29:35.982
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:29:35.982
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:29:36.022
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-29 13:29:36.190
+!MESSAGE Time Taken By Serialization  : 167 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:29:36.261
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 13:29:36.348
+!MESSAGE Time taken for serialization in msec: 366
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 13:29:36.400
+!MESSAGE USER_ACTION : Time taken for refreshing INTERRUPT/4.0.8/3 editor is : 1
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:36.400
+!MESSAGE USER_ACTION : Saved User configured HW Signal Connection..!
+
+!ENTRY SOLVER 1 0 2018-01-29 13:29:36.401
+!MESSAGE Time Taken By Solve and Save Signal Configuration  : 479 ms
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.456
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.access$14(SignalUIController.java:501)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:453)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.457
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.access$14(SignalUIController.java:501)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:453)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.457
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.access$14(SignalUIController.java:501)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:453)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.458
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.access$14(SignalUIController.java:501)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:453)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.571
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.reInitializeViewer(SignalUIController.java:695)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:457)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.572
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.reInitializeViewer(SignalUIController.java:695)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:457)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.573
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.reInitializeViewer(SignalUIController.java:695)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:457)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY DAVE CE 4 0 2018-01-29 13:29:36.573
+!MESSAGE 
+
+***START of Exception Info***
+6
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.constructMappedUriWithSolverVariable(ProblemDescriptionCreator.java:507)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.addReserved(ProblemDescriptionCreator.java:409)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.parseAppReserved(ProblemDescriptionCreator.java:144)
+com.ifx.davex.ce.core.solver.ProblemDescriptionCreator.getProblemDescriptionReserved(ProblemDescriptionCreator.java:111)
+com.ifx.davex.ce.core.solver.SolverManager.handleReservation(SolverManager.java:441)
+com.ifx.davex.ce.core.solver.SolverManager.updateQuery(SolverManager.java:387)
+com.ifx.davex.ce.core.resource.mngts.ResourceManager.handleSolverEvent(ResourceManager.java:1481)
+com.ifx.davex.ce.core.solver.events.SolverEventManager.notifyListeners(SolverEventManager.java:102)
+com.ifx.davex.ce.core.signal.config.SignalUIController.updateSolverQuery(SignalUIController.java:504)
+com.ifx.davex.ce.core.signal.config.SignalUIController.reInitializeViewer(SignalUIController.java:695)
+com.ifx.davex.ce.core.signal.config.SignalUIController$2.run(SignalUIController.java:457)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7$1.run(SignalConfigDialog.java:852)
+org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+com.ifx.davex.ce.core.ui.dialogs.SignalConfigDialog$7.widgetSelected(SignalConfigDialog.java:844)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+org.eclipse.jface.window.Window.open(Window.java:808)
+com.ifx.davex.ce.core.signal.config.SignalUIController$1.run(SignalUIController.java:218)
+org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+com.ifx.davex.ce.core.signal.config.SignalUIController.launchConfigurationWindow(SignalUIController.java:189)
+com.ifx.davex.ce.core.grapghview.provider.ActionsManager$5.run(ActionsManager.java:267)
+org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+***END of Exception Info***
+
+
+
+!ENTRY SIGNAL_CONFIG 1 0 2018-01-29 13:29:39.010
+!MESSAGE USER_ACTION : HW Signal Connection Dialog is closed..!
+
+!ENTRY CODEGEN 1 0 2018-01-29 13:29:55.592
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-01-29 13:29:58.871
+!MESSAGE Code generation completed...
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 14:00:05.719
+!MESSAGE USER_ACTION : Time taken for opening editor is: 126 msec 
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 14:00:17.858
+!MESSAGE USER_ACTION : Setting value = "100" of "gint_PWM_Frequency" in APP: PWM/4.1.10/1
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:00:17.939
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:00:17.939
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:00:18.032
+!MESSAGE Time taken for serialization in msec: 93
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:00:18.033
+!MESSAGE *****************************
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:00:18.185
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:00:20.025
+!MESSAGE Code generation completed...
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 14:02:27.494
+!MESSAGE USER_ACTION : Setting value = "1000" of "gint_PWM_Frequency" in APP: PWM/4.1.10/1
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:02:27.502
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:02:27.502
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:02:27.575
+!MESSAGE Time taken for serialization in msec: 73
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:02:27.575
+!MESSAGE *****************************
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:02:27.714
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:02:29.549
+!MESSAGE Code generation completed...
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 14:06:29.294
+!MESSAGE USER_ACTION : Time taken for opening editor is: 26 msec 
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 14:06:33.852
+!MESSAGE USER_ACTION : Setting value = "10" of "gint_PWM_Frequency" in APP: PWM/4.1.10/1
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:06:33.857
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:06:33.857
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:06:33.955
+!MESSAGE Time taken for serialization in msec: 98
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:06:33.955
+!MESSAGE *****************************
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:06:36.288
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:06:37.642
+!MESSAGE Code generation completed...
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 14:07:49.836
+!MESSAGE USER_ACTION : Time taken for opening editor is: 87 msec 
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 14:08:01.681
+!MESSAGE USER_ACTION : Setting value = "10000" of "gint_PWM_Frequency" in APP: PWM/4.1.10/1
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:08:01.689
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:08:01.689
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:08:01.784
+!MESSAGE Time taken for serialization in msec: 94
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:08:01.785
+!MESSAGE *****************************
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:08:01.933
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:08:03.310
+!MESSAGE Code generation completed...
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-01-29 14:40:55.607
+!MESSAGE USER_ACTION : Time taken for opening editor is: 125 msec 
+
+!ENTRY UI_EDITOR 1 0 2018-01-29 14:41:02.318
+!MESSAGE USER_ACTION : Setting value = "8000" of "gint_PWM_Frequency" in APP: PWM/4.1.10/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:41:02.331
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:41:02.332
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:41:02.396
+!MESSAGE Time taken for serialization in msec: 64
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-29 14:41:02.396
+!MESSAGE *****************************
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:41:07.116
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:41:08.560
+!MESSAGE Code generation completed...
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:51:14.293
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-01-29 14:51:15.522
+!MESSAGE Code generation completed...
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2018-01-29 16:43:27.374
+!MESSAGE Debug session 'MODBUS_RTU_MODE_XMC47 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2018-01-29 16:43:32.569
+!MESSAGE Debug session 'MODBUS_RTU_MODE_XMC47 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2018-01-29 16:43:41.017
+!MESSAGE Debug session 'MODBUS_RTU_MODE_XMC47 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2018-01-29 16:43:45.077
+!MESSAGE Debug session 'MODBUS_RTU_MODE_XMC47 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-30 19:07:37.177
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-30 19:07:37.211
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-01-30 19:07:37.399
+!MESSAGE Time Taken By Serialization  : 188 ms :: C:\Workspaces\power_measurement\MODBUS_RTU_MODE_XMC47\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-01-30 19:07:37.694
+!MESSAGE ****************Cleaning project data:MODBUS_RTU_MODE_XMC47*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-01-30 19:07:37.720
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 195 msec 
+
+!ENTRY SOLVER 1 0 2018-01-30 19:07:37.720
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2018-01-30 19:07:37.980
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.debug.core 4 2 2018-01-30 19:07:41.452
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.service.DsfServicesTracker.<init>(DsfServicesTracker.java:152)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupParticipant.<init>(DsfSourceLookupParticipant.java:62)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupDirector.initializeParticipants(DsfSourceLookupDirector.java:38)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.initializeDefaults(AbstractSourceLookupDirector.java:594)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.launchConfigurationChanged(AbstractSourceLookupDirector.java:359)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2162)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at com.dave.activeproject.ui.actions.DebugLaunchActiveProjectAction.launchesTerminated(DebugLaunchActiveProjectAction.java:275)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:318)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:270)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1055)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:405)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$1(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch$2.run(DsfLaunch.java:52)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1087)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:429)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 120 2018-01-30 19:07:41.452
+!MESSAGE An exception occurred during launch configuration change notification.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.service.DsfServicesTracker.<init>(DsfServicesTracker.java:152)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupParticipant.<init>(DsfSourceLookupParticipant.java:62)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupDirector.initializeParticipants(DsfSourceLookupDirector.java:38)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.initializeDefaults(AbstractSourceLookupDirector.java:594)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.launchConfigurationChanged(AbstractSourceLookupDirector.java:359)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2162)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at com.dave.activeproject.ui.actions.DebugLaunchActiveProjectAction.launchesTerminated(DebugLaunchActiveProjectAction.java:275)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:318)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:270)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1055)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:405)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$1(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch$2.run(DsfLaunch.java:52)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1087)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:429)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
