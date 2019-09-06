@@ -1,0 +1,20 @@
+Added Component: Designator=C7(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C8(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C9(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C10(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetLabel9 Pin=C7-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetLabel9 Pin=C8-1
+Added Pin To Net: NetName=NetC7_2 Pin=C8-2
+Added Pin To Net: NetName=NetLabel9 Pin=C9-1
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetLabel9 Pin=C10-1
+Added Pin To Net: NetName=Vamp2 Pin=C10-2
+Added Member To Class: ClassName=vi_measurement Member=Component C7 Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C8 Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C9 Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C10 Capacitor SMD

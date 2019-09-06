@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetR2_1 Pin=STM1-5
+Removed Pin From Net: NetName=NetR5_1 Pin=STM1-6
+Removed Pin From Net: NetName=NetR8_1 Pin=STM1-7
+Removed Pin From Net: NetName=NetR10_1 Pin=STM1-8
+Removed Pin From Net: NetName=NetR12_1 Pin=STM1-9
+Removed Pin From Net: NetName=NetR16_1 Pin=STM1-10
+Added Pin To Net: NetName=NetR16_1 Pin=STM1-5
+Added Pin To Net: NetName=NetR12_1 Pin=STM1-6
+Added Pin To Net: NetName=NetR10_1 Pin=STM1-7
+Added Pin To Net: NetName=NetR8_1 Pin=STM1-8
+Added Pin To Net: NetName=NetR5_1 Pin=STM1-9
+Added Pin To Net: NetName=NetR2_1 Pin=STM1-10
+Change Net Name : Old Net Name=NetR2_1 New Net Name=A5
+Change Net Name : Old Net Name=NetR5_1 New Net Name=A4
+Change Net Name : Old Net Name=NetR8_1 New Net Name=A3
+Change Net Name : Old Net Name=NetR10_1 New Net Name=A2
+Change Net Name : Old Net Name=NetR12_1 New Net Name=A1
+Change Net Name : Old Net Name=NetR16_1 New Net Name=A0
+Added Member To Class: ClassName=vi_measurement Member=Component R2 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R3 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R5 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R6 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R8 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R9 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R10 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R11 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R12 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R14 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R16 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R17 Resistor

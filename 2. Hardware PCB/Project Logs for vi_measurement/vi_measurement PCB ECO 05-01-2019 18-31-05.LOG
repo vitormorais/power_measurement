@@ -1,0 +1,34 @@
+Change Component Designator: OldDesignator=Ph? NewDesignator=Ph3
+Added Component: Designator=CC1(ACS770)
+Add component. Clean all parameters for all variants
+Added Component: Designator=CC2(ACS770)
+Add component. Clean all parameters for all variants
+Added Component: Designator=CC3(ACS770)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetCC1_4 Pin=CC1-4
+Added Pin To Net: NetName=NetCC1_4 Pin=Ph1-2
+Added Pin To Net: NetName=NetCC1_4 Pin=Ph1-2
+Added Net: Name=NetCC1_4
+Added Pin To Net: NetName=NetCC1_5 Pin=CC1-5
+Added Pin To Net: NetName=NetCC1_5 Pin=Ph1-1
+Added Pin To Net: NetName=NetCC1_5 Pin=Ph1-1
+Added Net: Name=NetCC1_5
+Added Pin To Net: NetName=NetCC2_4 Pin=CC2-4
+Added Pin To Net: NetName=NetCC2_4 Pin=Ph2-2
+Added Pin To Net: NetName=NetCC2_4 Pin=Ph2-2
+Added Net: Name=NetCC2_4
+Added Pin To Net: NetName=NetCC2_5 Pin=CC2-5
+Added Pin To Net: NetName=NetCC2_5 Pin=Ph2-1
+Added Pin To Net: NetName=NetCC2_5 Pin=Ph2-1
+Added Net: Name=NetCC2_5
+Added Pin To Net: NetName=NetCC3_4 Pin=CC3-4
+Added Pin To Net: NetName=NetCC3_4 Pin=Ph3-2
+Added Pin To Net: NetName=NetCC3_4 Pin=Ph3-2
+Added Net: Name=NetCC3_4
+Added Pin To Net: NetName=NetCC3_5 Pin=CC3-5
+Added Pin To Net: NetName=NetCC3_5 Pin=Ph3-1
+Added Pin To Net: NetName=NetCC3_5 Pin=Ph3-1
+Added Net: Name=NetCC3_5
+Added Member To Class: ClassName=vi_measurement Member=Component CC1 ACS770
+Added Member To Class: ClassName=vi_measurement Member=Component CC2 ACS770
+Added Member To Class: ClassName=vi_measurement Member=Component CC3 ACS770

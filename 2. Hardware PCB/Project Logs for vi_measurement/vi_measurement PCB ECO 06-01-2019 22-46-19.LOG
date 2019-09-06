@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=VCC Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=VCC Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=VCC Pin=C7-2
+Added Member To Class: ClassName=vi_measurement Member=Component C6 Capacitor SMD

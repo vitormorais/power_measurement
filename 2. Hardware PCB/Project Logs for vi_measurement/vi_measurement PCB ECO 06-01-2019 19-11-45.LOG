@@ -1,0 +1,72 @@
+Added Component: Designator=C?(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U?(SOIC8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U?(DC/DC_ISO)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U?(SOIC8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U?(DC/DC_ISO)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Vdd1 Pin=U?-1
+Added Pin To Net: NetName=Gnd1 Pin=U?-4
+Added Pin To Net: NetName=Gnd2 Pin=C?-1
+Added Pin To Net: NetName=Gnd2 Pin=C?-1
+Added Pin To Net: NetName=Gnd2 Pin=U?-3
+Added Pin To Net: NetName=Gnd2 Pin=U?-4
+Added Net: Name=Gnd2
+Added Pin To Net: NetName=Gnd3 Pin=C?-1
+Added Pin To Net: NetName=Gnd3 Pin=C?-1
+Added Pin To Net: NetName=Gnd3 Pin=U?-3
+Added Net: Name=Gnd3
+Added Pin To Net: NetName=Vamp3 Pin=C?-1
+Added Pin To Net: NetName=Vamp3 Pin=R?-1
+Added Pin To Net: NetName=Vamp3 Pin=U?-2
+Added Net: Name=Vamp3
+Added Pin To Net: NetName=Vamp4 Pin=C?-2
+Added Pin To Net: NetName=Vamp4 Pin=R?-2
+Added Pin To Net: NetName=Vamp4 Pin=U?-3
+Added Net: Name=Vamp4
+Added Pin To Net: NetName=Vamp5 Pin=C?-1
+Added Pin To Net: NetName=Vamp5 Pin=R?-1
+Added Pin To Net: NetName=Vamp5 Pin=U?-2
+Added Net: Name=Vamp5
+Added Pin To Net: NetName=Vamp6 Pin=C?-2
+Added Pin To Net: NetName=Vamp6 Pin=R?-2
+Added Pin To Net: NetName=Vamp6 Pin=U?-3
+Added Net: Name=Vamp6
+Added Pin To Net: NetName=Vdd2 Pin=C?-2
+Added Pin To Net: NetName=Vdd2 Pin=C?-2
+Added Pin To Net: NetName=Vdd2 Pin=U?-1
+Added Pin To Net: NetName=Vdd2 Pin=U?-4
+Added Net: Name=Vdd2
+Added Pin To Net: NetName=Vdd3 Pin=C?-2
+Added Pin To Net: NetName=Vdd3 Pin=C?-2
+Added Pin To Net: NetName=Vdd3 Pin=U?-4
+Added Net: Name=Vdd3
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component R? R_MEAS
+Added Member To Class: ClassName=vi_measurement Member=Component R? R_MEAS
+Added Member To Class: ClassName=vi_measurement Member=Component U? AMC1200
+Added Member To Class: ClassName=vi_measurement Member=Component U? DC/DC_ISO
+Added Member To Class: ClassName=vi_measurement Member=Component U? AMC1200
+Added Member To Class: ClassName=vi_measurement Member=Component U? DC/DC_ISO

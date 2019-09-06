@@ -1,0 +1,95 @@
+Added Component: Designator=R77(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R78(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R79(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R80(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R81(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R82(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R83(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R84(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R85(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R86(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R87(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R88(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R89(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R90(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetLabel12 Pin=R77-1
+Added Pin To Net: NetName=Vamp5 Pin=R90-2
+Added Pin To Net: NetName=NetR77_2 Pin=R77-2
+Added Pin To Net: NetName=NetR77_2 Pin=R78-1
+Added Net: Name=NetR77_2
+Added Pin To Net: NetName=NetR78_2 Pin=R78-2
+Added Pin To Net: NetName=NetR78_2 Pin=R79-1
+Added Net: Name=NetR78_2
+Added Pin To Net: NetName=NetR79_2 Pin=R79-2
+Added Pin To Net: NetName=NetR79_2 Pin=R80-1
+Added Net: Name=NetR79_2
+Added Pin To Net: NetName=NetR80_2 Pin=R80-2
+Added Pin To Net: NetName=NetR80_2 Pin=R81-1
+Added Net: Name=NetR80_2
+Added Pin To Net: NetName=NetR81_2 Pin=R81-2
+Added Pin To Net: NetName=NetR81_2 Pin=R82-1
+Added Net: Name=NetR81_2
+Added Pin To Net: NetName=NetR82_2 Pin=R82-2
+Added Pin To Net: NetName=NetR82_2 Pin=R83-1
+Added Net: Name=NetR82_2
+Added Pin To Net: NetName=NetR83_2 Pin=R83-2
+Added Pin To Net: NetName=NetR83_2 Pin=R84-1
+Added Net: Name=NetR83_2
+Added Pin To Net: NetName=NetR84_2 Pin=R84-2
+Added Pin To Net: NetName=NetR84_2 Pin=R85-1
+Added Net: Name=NetR84_2
+Added Pin To Net: NetName=NetR85_2 Pin=R85-2
+Added Pin To Net: NetName=NetR85_2 Pin=R86-1
+Added Net: Name=NetR85_2
+Added Pin To Net: NetName=NetR86_2 Pin=R86-2
+Added Pin To Net: NetName=NetR86_2 Pin=R87-1
+Added Net: Name=NetR86_2
+Added Pin To Net: NetName=NetR87_2 Pin=R87-2
+Added Pin To Net: NetName=NetR87_2 Pin=R88-1
+Added Net: Name=NetR87_2
+Added Pin To Net: NetName=NetR88_2 Pin=R88-2
+Added Pin To Net: NetName=NetR88_2 Pin=R89-1
+Added Net: Name=NetR88_2
+Added Pin To Net: NetName=NetR89_2 Pin=R89-2
+Added Pin To Net: NetName=NetR89_2 Pin=R90-1
+Added Net: Name=NetR89_2
+Added Member To Class: ClassName=vi_measurement Member=Component R7 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R8 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R9 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R12 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R13 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R14 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R15 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R16 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R17 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R18 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R19 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R20 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R77 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R78 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R79 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R80 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R81 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R82 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R83 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R84 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R85 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R86 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R87 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R88 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R89 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R90 Resistor

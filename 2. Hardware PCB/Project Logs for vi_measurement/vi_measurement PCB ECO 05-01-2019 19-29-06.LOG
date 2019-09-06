@@ -1,0 +1,62 @@
+Added Component: Designator=C1(CAPC_1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(CAPC_1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(CAPC_1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C4(CAPC_1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C5(CAPC_1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C6(CAPC_1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=CC1-2
+Added Pin To Net: NetName=GND Pin=CC2-2
+Added Pin To Net: NetName=GND Pin=CC3-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=R1-2
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=R2-2
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=R3-2
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetCC1_3 Pin=CC1-3
+Added Pin To Net: NetName=NetCC1_3 Pin=R1-1
+Added Net: Name=NetCC1_3
+Added Pin To Net: NetName=NetCC2_3 Pin=CC2-3
+Added Pin To Net: NetName=NetCC2_3 Pin=R2-1
+Added Net: Name=NetCC2_3
+Added Pin To Net: NetName=NetCC3_3 Pin=CC3-3
+Added Pin To Net: NetName=NetCC3_3 Pin=R3-1
+Added Net: Name=NetCC3_3
+Added Pin To Net: NetName=VCC Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=C5-2
+Added Pin To Net: NetName=VCC Pin=CC1-1
+Added Pin To Net: NetName=VCC Pin=CC2-1
+Added Pin To Net: NetName=VCC Pin=CC3-1
+Added Net: Name=VCC
+Added Member To Class: ClassName=vi_measurement Member=Component C1 
+Added Member To Class: ClassName=vi_measurement Member=Component C2 
+Added Member To Class: ClassName=vi_measurement Member=Component C3 
+Added Member To Class: ClassName=vi_measurement Member=Component C4 
+Added Member To Class: ClassName=vi_measurement Member=Component C5 
+Added Member To Class: ClassName=vi_measurement Member=Component C6 
+Added Member To Class: ClassName=vi_measurement Member=Component R1 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R2 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R3 Resistor

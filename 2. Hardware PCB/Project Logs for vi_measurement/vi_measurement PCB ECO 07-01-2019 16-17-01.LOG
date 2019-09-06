@@ -1,0 +1,354 @@
+Change Component Footprint: Designator=C1 Old Footprint=CAPC_1206 New Footprint=CAPC_0805
+Change Component Footprint: Designator=C2 Old Footprint=CAPC_1206 New Footprint=CAPC_0805
+Change Component Footprint: Designator=C3 Old Footprint=CAPC_1206 New Footprint=CAPC_0805
+Change Component Footprint: Designator=C4 Old Footprint=CAPC_1206 New Footprint=CAPC_0805
+Change Component Footprint: Designator=C5 Old Footprint=CAPC_1206 New Footprint=CAPC_0805
+Change Component Footprint: Designator=C6 Old Footprint=CAPC_1206 New Footprint=CAPC_0805
+Change component parameters: Designator = "C1"; Footprint = "CAPC_0805"; UniqueID = "\SNLWBPUL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2"; Footprint = "CAPC_0805"; UniqueID = "\GPWMTXTN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3"; Footprint = "CAPC_0805"; UniqueID = "\TTGSOJKS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4"; Footprint = "CAPC_0805"; UniqueID = "\JIHGGJJD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5"; Footprint = "CAPC_0805"; UniqueID = "\QJFBCLBX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6"; Footprint = "CAPC_0805"; UniqueID = "\NYWYEDSV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7"; Footprint = "CAPC_0805"; UniqueID = "\QGOATXXC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8"; Footprint = "CAPC_0805"; UniqueID = "\FIFPEGBT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9"; Footprint = "CAPC_0805"; UniqueID = "\NVJWNDFS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10"; Footprint = "CAPC_0805"; UniqueID = "\BJBQVKCU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11"; Footprint = "CAPC_0805"; UniqueID = "\DRWKVJWP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12"; Footprint = "CAPC_0805"; UniqueID = "\DUCSPCRS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13"; Footprint = "CAPC_0805"; UniqueID = "\SVGFENGB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14"; Footprint = "CAPC_0805"; UniqueID = "\ENJPNWJO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15"; Footprint = "CAPC_0805"; UniqueID = "\CSFQMUTF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16"; Footprint = "CAPC_0805"; UniqueID = "\SJCSXOQH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17"; Footprint = "CAPC_0805"; UniqueID = "\AWFDYNAT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C18"; Footprint = "CAPC_0805"; UniqueID = "\GFQCDHBT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C19"; Footprint = "CAPC_0805"; UniqueID = "\BJAYNSYQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20"; Footprint = "CAPC_0805"; UniqueID = "\QUYDQAJM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C282734"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21"; Footprint = "CAPC_0805"; UniqueID = "\QRMFJKWJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C337995"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1"; Footprint = "RESC_0805"; UniqueID = "\GGFQPDEA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C269732"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2"; Footprint = "RESC_0805"; UniqueID = "\DMTCVUFE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C105427"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3"; Footprint = "RESC_0805"; UniqueID = "\GBFLWBJA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4"; Footprint = "RESC_0805"; UniqueID = "\BGCWSQUQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C269732"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5"; Footprint = "RESC_0805"; UniqueID = "\BRNEORMJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C105427"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6"; Footprint = "RESC_0805"; UniqueID = "\OMBGKEUG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7"; Footprint = "RESC_0805"; UniqueID = "\AAETNPKP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C269732"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8"; Footprint = "RESC_0805"; UniqueID = "\ABQEHUSM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C105427"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9"; Footprint = "RESC_0805"; UniqueID = "\LUNQYLNY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10"; Footprint = "RESC_0805"; UniqueID = "\TRYWYLYU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C105427"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11"; Footprint = "RESC_0805"; UniqueID = "\NVTXUVWE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12"; Footprint = "RESC_0805"; UniqueID = "\QGJCDARU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C105427"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R13"; Footprint = "RESC_0805"; UniqueID = "\SHWQXYKE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C269732"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14"; Footprint = "RESC_0805"; UniqueID = "\WVPEERBU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16"; Footprint = "RESC_0805"; UniqueID = "\RYEUHVOJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C105427"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17"; Footprint = "RESC_0805"; UniqueID = "\QXVXWMIK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18"; Footprint = "RESC_0805"; UniqueID = "\JOBRCXGB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C269732"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20"; Footprint = "RESC_0805"; UniqueID = "\RKQERQCV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C269732"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21"; Footprint = "RESC_0805"; UniqueID = "\LADCSJBA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R36"; Footprint = "RESC_0805"; UniqueID = "\WONOTMAN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R37"; Footprint = "RESC_0805"; UniqueID = "\HTNJASOM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R38"; Footprint = "RESC_0805"; UniqueID = "\FSTKJKPS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R39"; Footprint = "RESC_0805"; UniqueID = "\OKNHVBAR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R40"; Footprint = "RESC_0805"; UniqueID = "\EOBWHYFR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R41"; Footprint = "RESC_0805"; UniqueID = "\VJHIPSQS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R42"; Footprint = "RESC_0805"; UniqueID = "\MTGVJDAS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43"; Footprint = "RESC_0805"; UniqueID = "\BHDYLPPN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R44"; Footprint = "RESC_0805"; UniqueID = "\YVTSVAFH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R45"; Footprint = "RESC_0805"; UniqueID = "\NRBJTXMX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R46"; Footprint = "RESC_0805"; UniqueID = "\NTDDEPIS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R47"; Footprint = "RESC_0805"; UniqueID = "\XNCJAWYS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R48"; Footprint = "RESC_0805"; UniqueID = "\LRLHBVUV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R49"; Footprint = "RESC_0805"; UniqueID = "\VPJRVTEH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R50"; Footprint = "RESC_0805"; UniqueID = "\QUERKIEB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51"; Footprint = "RESC_0805"; UniqueID = "\GAFWIFXR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R52"; Footprint = "RESC_0805"; UniqueID = "\USWRUKOB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R53"; Footprint = "RESC_0805"; UniqueID = "\SCBLDONN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R54"; Footprint = "RESC_0805"; UniqueID = "\QYIGLGQY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R55"; Footprint = "RESC_0805"; UniqueID = "\GUKUESJS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R56"; Footprint = "RESC_0805"; UniqueID = "\RLWHQTQE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R57"; Footprint = "RESC_0805"; UniqueID = "\FQLQHECO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R58"; Footprint = "RESC_0805"; UniqueID = "\AHQISYSO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R59"; Footprint = "RESC_0805"; UniqueID = "\EOOBPVXU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R60"; Footprint = "RESC_0805"; UniqueID = "\ROCLGKOV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R61"; Footprint = "RESC_0805"; UniqueID = "\CBOCTMCS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R62"; Footprint = "RESC_0805"; UniqueID = "\HJCGDMFW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R63"; Footprint = "RESC_0805"; UniqueID = "\HRJEHOJB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R64"; Footprint = "RESC_0805"; UniqueID = "\CQCCVVYF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R65"; Footprint = "RESC_0805"; UniqueID = "\VVRRVFTQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R66"; Footprint = "RESC_0805"; UniqueID = "\SJCHVFLY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R67"; Footprint = "RESC_0805"; UniqueID = "\DTMIPSLC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R68"; Footprint = "RESC_0805"; UniqueID = "\RPLYVYEX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R69"; Footprint = "RESC_0805"; UniqueID = "\DAXWDVOC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R70"; Footprint = "RESC_0805"; UniqueID = "\OJNTSINI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R71"; Footprint = "RESC_0805"; UniqueID = "\FSOYPVXI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R72"; Footprint = "RESC_0805"; UniqueID = "\FDRSURXY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R73"; Footprint = "RESC_0805"; UniqueID = "\MSSWJBGW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R74"; Footprint = "RESC_0805"; UniqueID = "\XMTNSONV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R75"; Footprint = "RESC_0805"; UniqueID = "\KNVVKMEQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R76"; Footprint = "RESC_0805"; UniqueID = "\DGYNYANG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R77"; Footprint = "RESC_0805"; UniqueID = "\KWGIXNHV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R78"; Footprint = "RESC_0805"; UniqueID = "\LANHGHOX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R79"; Footprint = "RESC_0805"; UniqueID = "\COVWVHVF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R80"; Footprint = "RESC_0805"; UniqueID = "\OADGKWMF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R81"; Footprint = "RESC_0805"; UniqueID = "\VSSWDJPQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R82"; Footprint = "RESC_0805"; UniqueID = "\IUGFQPVI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R83"; Footprint = "RESC_0805"; UniqueID = "\SDTTRQFN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R84"; Footprint = "RESC_0805"; UniqueID = "\GBWSPRJI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R85"; Footprint = "RESC_0805"; UniqueID = "\CNHWXDRI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R86"; Footprint = "RESC_0805"; UniqueID = "\OOVSDUKF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R87"; Footprint = "RESC_0805"; UniqueID = "\SWRABSGQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R88"; Footprint = "RESC_0805"; UniqueID = "\VOXCNTLD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R89"; Footprint = "RESC_0805"; UniqueID = "\PGUCXWNS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R90"; Footprint = "RESC_0805"; UniqueID = "\YRDVJXAS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R91"; Footprint = "RESC_0805"; UniqueID = "\HXKVMXHT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R92"; Footprint = "RESC_0805"; UniqueID = "\LCVMILTI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R93"; Footprint = "RESC_0805"; UniqueID = "\MJITXUHT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R94"; Footprint = "RESC_0805"; UniqueID = "\VMQSXADX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R95"; Footprint = "RESC_0805"; UniqueID = "\SIVJPGWC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R96"; Footprint = "RESC_0805"; UniqueID = "\TAIKVCAX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R97"; Footprint = "RESC_0805"; UniqueID = "\KCAQWRYX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R98"; Footprint = "RESC_0805"; UniqueID = "\NDCHTGDQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R99"; Footprint = "RESC_0805"; UniqueID = "\BWPDUKKY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R100"; Footprint = "RESC_0805"; UniqueID = "\JOPIIUCB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R101"; Footprint = "RESC_0805"; UniqueID = "\AUFNOPEN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R102"; Footprint = "RESC_0805"; UniqueID = "\LVDKFHFC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R103"; Footprint = "RESC_0805"; UniqueID = "\XQMEXDBC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R104"; Footprint = "RESC_0805"; UniqueID = "\TBMOCHYW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R105"; Footprint = "RESC_0805"; UniqueID = "\VXSXEJAM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C294739"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1"; Footprint = "DC/DC_ISO"; UniqueID = "\NQEAWLRK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C98815"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2"; Footprint = "SOIC8"; UniqueID = "\PBHGTVLC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C79905"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U3"; Footprint = "DC/DC_ISO"; UniqueID = "\BMHCLPVQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C98815"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4"; Footprint = "SOIC8"; UniqueID = "\VFTSJULP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C79905"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5"; Footprint = "DC/DC_ISO"; UniqueID = "\CLYOPQBE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C98815"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6"; Footprint = "SOIC8"; UniqueID = "\CHPVUFAC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LCSC"; Value = "C79905"; VariantName = "[No Variations]"

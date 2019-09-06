@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=Vdd1 Pin=U?-1
+Removed Pin From Net: NetName=Gnd1 Pin=U?-4
+Added Pin To Net: NetName=Vdd3 Pin=U?-1
+Added Pin To Net: NetName=Gnd3 Pin=U?-4
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C? Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component R? R_MEAS
+Added Member To Class: ClassName=vi_measurement Member=Component U? AMC1200
+Added Member To Class: ClassName=vi_measurement Member=Component U? DC/DC_ISO
+Added Member To Class: ClassName=vi_measurement Member=Component U? AMC1200

@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetC12_1 New Net Name=Iout1
+Change Net Name : Old Net Name=NetC18_1 New Net Name=Iout2
+Change Net Name : Old Net Name=NetC21_1 New Net Name=Iout3
+Change Net Name : Old Net Name=out1 New Net Name=Vout1
+Change Net Name : Old Net Name=out2 New Net Name=Vout2
+Change Net Name : Old Net Name=out3 New Net Name=Vout3

@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=* NewDesignator=U?
+Added Component: Designator=DC/DC_ISO?(DC/DC_ISO)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Vamp2 Pin=DC/DC_ISO?-3
+Added Pin To Net: NetName=Vamp2 Pin=U?-15
+Change Net Name : Old Net Name=Net*_12 New Net Name=NetU?_12
+Added Pin To Net: NetName=NetDC/DC_ISO?_4 Pin=DC/DC_ISO?-4
+Added Pin To Net: NetName=NetDC/DC_ISO?_4 Pin=U?-16
+Added Net: Name=NetDC/DC_ISO?_4
+Added Member To Class: ClassName=vi_measurement Member=Component DC/DC_ISO? DC/DC_ISO

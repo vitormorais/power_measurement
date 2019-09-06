@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Vamp2 Pin=U2-2
+Removed Pin From Net: NetName=Vamp1 Pin=U2-3
+Added Pin To Net: NetName=Vamp1 Pin=U2-2
+Added Pin To Net: NetName=Vamp2 Pin=U2-3
+Added Room: Name=vi_measurement

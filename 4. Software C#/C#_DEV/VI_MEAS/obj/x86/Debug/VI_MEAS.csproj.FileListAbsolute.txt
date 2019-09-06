@@ -1,0 +1,28 @@
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.exe.config
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.exe.manifest
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.application
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.exe
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.pdb
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\OXYPLUS_Emulator.Form1.resources
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\OXYPLUS_Emulator.Form_Chart.resources
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\OXYPLUS_Emulator.Properties.Resources.resources
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.csproj.GenerateResource.Cache
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.exe.manifest
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.application
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.exe
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.pdb
+C:\Users\VMORAIS\Desktop\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.csprojResolveAssemblyReference.cache
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.exe.config
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.exe
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.pdb
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.exe.manifest
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.application
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.exe
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\bin\Debug\VI_MEAS.pdb
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.csprojResolveAssemblyReference.cache
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\OXYPLUS_Emulator.Form1.resources
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\OXYPLUS_Emulator.Form_Chart.resources
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\OXYPLUS_Emulator.Properties.Resources.resources
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.csproj.GenerateResource.Cache
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.exe.manifest
+F:\Projects\20181201 - VI_measurement\STM32\C#_DEV\VI_MEAS\obj\x86\Debug\VI_MEAS.application

@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=Vamp2 Pin=DC/DC_ISO?-3
+Removed Pin From Net: NetName=NetLabel9 Pin=R10-1
+Removed Pin From Net: NetName=Vamp1 Pin=R31-2
+Removed Pin From Net: NetName=Vamp2 Pin=U?-9
+Removed Pin From Net: NetName=Vamp1 Pin=U?-11
+Removed Pin From Net: NetName=NetU?_12 Pin=U?-12
+Removed Pin From Net: NetName=NetU?_12 Pin=U?-13
+Removed Pin From Net: NetName=Vamp2 Pin=U?-15
+Change Component Designator: OldDesignator=DC/DC_ISO? NewDesignator=DC/DC_ISO1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Added Component: Designator=R32(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R33(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R34(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R35(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R36(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetLabel9 Pin=DC/DC_ISO1-3
+Added Pin To Net: NetName=NetLabel10 Pin=R10-1
+Added Pin To Net: NetName=NetU?_12 Pin=R32-1
+Added Pin To Net: NetName=Vamp1 Pin=R32-2
+Added Pin To Net: NetName=Vamp2 Pin=R33-1
+Added Pin To Net: NetName=NetU?_12 Pin=R34-1
+Added Pin To Net: NetName=NetLabel9 Pin=R34-2
+Added Pin To Net: NetName=NetLabel9 Pin=R35-1
+Added Pin To Net: NetName=Vamp2 Pin=R35-2
+Added Pin To Net: NetName=NetLabel9 Pin=U1-9
+Added Pin To Net: NetName=Vamp1 Pin=U1-13
+Added Pin To Net: NetName=NetLabel9 Pin=U1-15
+Change Net Name : Old Net Name=NetDC/DC_ISO?_4 New Net Name=NetC7_2
+Change Net Name : Old Net Name=NetU?_12 New Net Name=NetC9_2
+Change Net Name : Old Net Name=Vamp1 New Net Name=NetR32_2
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=R36-1
+Added Pin To Net: NetName=NetR33_2 Pin=U1-11
+Added Net: Name=NetR33_2
+Added Pin To Net: NetName=NetR36_2 Pin=R36-2
+Added Pin To Net: NetName=NetR36_2 Pin=U1-10
+Added Net: Name=NetR36_2
+Added Member To Class: ClassName=vi_measurement Member=Component R32 1K
+Added Member To Class: ClassName=vi_measurement Member=Component R33 1K
+Added Member To Class: ClassName=vi_measurement Member=Component R34 1K
+Added Member To Class: ClassName=vi_measurement Member=Component R35 R_MEAS
+Added Member To Class: ClassName=vi_measurement Member=Component R36 1K

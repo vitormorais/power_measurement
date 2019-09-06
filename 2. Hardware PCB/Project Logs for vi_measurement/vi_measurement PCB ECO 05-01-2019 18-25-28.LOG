@@ -1,0 +1,7 @@
+Added Component: Designator=Ph1(Phoenix)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Ph2(Phoenix)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Ph?(Phoenix)
+Add component. Clean all parameters for all variants
+Added Class: Name=vi_measurement

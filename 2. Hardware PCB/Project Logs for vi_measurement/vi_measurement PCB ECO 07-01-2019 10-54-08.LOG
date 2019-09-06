@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=Vout1 Pin=U4-7
+Removed Pin From Net: NetName=Vout2 Pin=U6-7
+Added Component: Designator=C20(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C21(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R92(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R93(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=Vout1 Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=Vout2 Pin=C21-2
+Added Pin To Net: NetName=Vout1 Pin=R92-2
+Added Pin To Net: NetName=Vout2 Pin=R93-2
+Added Pin To Net: NetName=NetR92_1 Pin=R92-1
+Added Pin To Net: NetName=NetR92_1 Pin=U4-7
+Added Net: Name=NetR92_1
+Added Pin To Net: NetName=NetR93_1 Pin=R93-1
+Added Pin To Net: NetName=NetR93_1 Pin=U6-7
+Added Net: Name=NetR93_1
+Added Member To Class: ClassName=vi_measurement Member=Component C20 Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component C21 Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component R92 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R93 Resistor

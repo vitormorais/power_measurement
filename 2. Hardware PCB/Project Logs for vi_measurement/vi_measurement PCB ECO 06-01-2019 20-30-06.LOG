@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Vamp5 Pin=R48-2
+Removed Pin From Net: NetName=Vamp6 Pin=R62-2
+Added Pin To Net: NetName=Vamp3 Pin=R48-2
+Added Pin To Net: NetName=Vamp4 Pin=R62-2

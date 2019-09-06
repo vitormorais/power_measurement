@@ -1,0 +1,12 @@
+Added Component: Designator=*(amplificador)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Net*_12 Pin=*-12
+Added Pin To Net: NetName=Net*_12 Pin=*-13
+Added Net: Name=Net*_12
+Added Pin To Net: NetName=Vamp1 Pin=*-11
+Added Pin To Net: NetName=Vamp1 Pin=R23-2
+Added Net: Name=Vamp1
+Added Pin To Net: NetName=Vamp2 Pin=*-9
+Added Pin To Net: NetName=Vamp2 Pin=R31-2
+Added Net: Name=Vamp2
+Added Member To Class: ClassName=vi_measurement Member=Component * amplificador

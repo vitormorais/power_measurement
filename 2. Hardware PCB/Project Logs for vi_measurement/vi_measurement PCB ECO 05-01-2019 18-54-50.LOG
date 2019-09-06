@@ -1,0 +1,24 @@
+Added Component: Designator=O1(Olhal)
+Add component. Clean all parameters for all variants
+Added Component: Designator=O2(Olhal)
+Add component. Clean all parameters for all variants
+Added Component: Designator=O3(Olhal)
+Add component. Clean all parameters for all variants
+Added Component: Designator=O4(Olhal)
+Add component. Clean all parameters for all variants
+Added Component: Designator=O5(Olhal)
+Add component. Clean all parameters for all variants
+Added Component: Designator=O6(Olhal)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetCC1_4 Pin=O1-1
+Added Pin To Net: NetName=NetCC2_4 Pin=O2-1
+Added Pin To Net: NetName=NetCC1_5 Pin=O3-1
+Added Pin To Net: NetName=NetCC3_4 Pin=O4-1
+Added Pin To Net: NetName=NetCC2_5 Pin=O5-1
+Added Pin To Net: NetName=NetCC3_5 Pin=O6-1
+Added Member To Class: ClassName=vi_measurement Member=Component O1 olhal
+Added Member To Class: ClassName=vi_measurement Member=Component O2 olhal
+Added Member To Class: ClassName=vi_measurement Member=Component O3 olhal
+Added Member To Class: ClassName=vi_measurement Member=Component O4 olhal
+Added Member To Class: ClassName=vi_measurement Member=Component O5 olhal
+Added Member To Class: ClassName=vi_measurement Member=Component O6 olhal

@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: vi_measurement.PcbDoc   08/01/2019  17:29:41
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : vi_measurement-RoundHoles.TXT
+ASCII SlotHoles File : vi_measurement-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             110       PTH        35.39inch (898.79mm)
+T2      16mil (0.4mm)                                             Round             84        PTH        6.87inch (174.55mm)
+T3      20mil (0.5mm)                                             Round             48        PTH        6.57inch (166.86mm)
+T4      24mil (0.6mm)                                             Round             40        PTH        6.30inch (160.02mm)
+T5      30mil (0.762mm)                                           Round             12        PTH        3.71inch (94.29mm)
+T6      32mil (0.8mm)                                             Round             9         PTH        2.97inch (75.45mm)
+T7      35mil (0.9mm)                                             Round             18        PTH        3.13inch (79.62mm)
+T8      47mil (1.2mm)                                             Round             2         PTH        0.20inch (5.00mm)
+T9      51mil (1.3mm)                                             Round             12        PTH        6.51inch (165.33mm)
+T10     79mil (2mm)                                               Slot              6         PTH        6.22inch (157.87mm)
+T11     118mil (3mm)                                              Round             4         NPTH       12.90inch (327.76mm)
+T12     157mil (4mm)                                              Round             6         NPTH       3.10inch (78.70mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              351
+
+Total Processing Time (hh:mm:ss) : 00:00:00

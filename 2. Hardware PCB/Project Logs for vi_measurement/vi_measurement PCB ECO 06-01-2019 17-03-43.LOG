@@ -1,0 +1,105 @@
+Removed Pin From Net: NetName=NetLabel9 Pin=C7-1
+Removed Pin From Net: NetName=NetLabel9 Pin=C8-1
+Removed Pin From Net: NetName=NetLabel9 Pin=C9-1
+Removed Pin From Net: NetName=NetC9_2 Pin=C9-2
+Removed Pin From Net: NetName=NetLabel9 Pin=C10-1
+Removed Pin From Net: NetName=NetLabel9 Pin=DC/DC_ISO1-3
+Removed Pin From Net: NetName=NetC9_2 Pin=R32-1
+Removed Pin From Net: NetName=Vamp2 Pin=R33-1
+Removed Pin From Net: NetName=NetC9_2 Pin=R34-1
+Removed Pin From Net: NetName=NetLabel9 Pin=R34-2
+Removed Pin From Net: NetName=NetLabel9 Pin=R35-1
+Removed Pin From Net: NetName=NetR33_2 Pin=R36-1
+Removed Pin From Net: NetName=NetLabel9 Pin=U1-9
+Removed Pin From Net: NetName=NetR36_2 Pin=U1-10
+Removed Pin From Net: NetName=NetR33_2 Pin=U1-11
+Removed Pin From Net: NetName=NetR32_2 Pin=U1-13
+Removed Pin From Net: NetName=NetLabel9 Pin=U1-15
+Removed Pin From Net: NetName=NetC7_2 Pin=U1-16
+Removed Member From Class: ClassName=vi_measurement Member=C9
+Removed Member From Class: ClassName=vi_measurement Member=U1
+Change Component Comment : Designator=R32 Old Comment=1K New Comment=Resistor
+Change Component Comment : Designator=R33 Old Comment=1K New Comment=Resistor
+Change Component Comment : Designator=R34 Old Comment=1K New Comment=Resistor
+Change Component Comment : Designator=R36 Old Comment=1K New Comment=Resistor
+Change Component Designator: OldDesignator=DC/DC_ISO1 NewDesignator=U1
+Added Component: Designator=R37(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R38(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R39(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R40(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R41(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R42(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R43(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R44(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R45(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R46(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U2(SOIC8)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC9_2 Pin=C10-1
+Added Pin To Net: NetName=NetLabel9 Pin=R32-1
+Added Pin To Net: NetName=NetR32_2 Pin=R33-1
+Added Pin To Net: NetName=NetR33_2 Pin=R34-1
+Added Pin To Net: NetName=NetC9_2 Pin=R35-1
+Added Pin To Net: NetName=NetR36_2 Pin=R37-1
+Added Pin To Net: NetName=NetC9_2 Pin=R46-2
+Added Pin To Net: NetName=NetC7_2 Pin=U2-1
+Added Pin To Net: NetName=Vamp2 Pin=U2-2
+Added Pin To Net: NetName=NetC9_2 Pin=U2-3
+Change Net Name : Old Net Name=NetC7_2 New Net Name=Vdd1
+Change Net Name : Old Net Name=NetC9_2 New Net Name=Vamp1
+Added Pin To Net: NetName=Gnd1 Pin=C7-1
+Added Pin To Net: NetName=Gnd1 Pin=C8-1
+Added Pin To Net: NetName=Gnd1 Pin=U1-3
+Added Pin To Net: NetName=Gnd1 Pin=U2-4
+Added Net: Name=Gnd1
+Added Pin To Net: NetName=NetR34_2 Pin=R34-2
+Added Pin To Net: NetName=NetR34_2 Pin=R36-1
+Added Net: Name=NetR34_2
+Added Pin To Net: NetName=NetR37_2 Pin=R37-2
+Added Pin To Net: NetName=NetR37_2 Pin=R38-1
+Added Net: Name=NetR37_2
+Added Pin To Net: NetName=NetR38_2 Pin=R38-2
+Added Pin To Net: NetName=NetR38_2 Pin=R39-1
+Added Net: Name=NetR38_2
+Added Pin To Net: NetName=NetR39_2 Pin=R39-2
+Added Pin To Net: NetName=NetR39_2 Pin=R40-1
+Added Net: Name=NetR39_2
+Added Pin To Net: NetName=NetR40_2 Pin=R40-2
+Added Pin To Net: NetName=NetR40_2 Pin=R41-1
+Added Net: Name=NetR40_2
+Added Pin To Net: NetName=NetR41_2 Pin=R41-2
+Added Pin To Net: NetName=NetR41_2 Pin=R42-1
+Added Net: Name=NetR41_2
+Added Pin To Net: NetName=NetR42_2 Pin=R42-2
+Added Pin To Net: NetName=NetR42_2 Pin=R43-1
+Added Net: Name=NetR42_2
+Added Pin To Net: NetName=NetR43_2 Pin=R43-2
+Added Pin To Net: NetName=NetR43_2 Pin=R44-1
+Added Net: Name=NetR43_2
+Added Pin To Net: NetName=NetR44_2 Pin=R44-2
+Added Pin To Net: NetName=NetR44_2 Pin=R45-1
+Added Net: Name=NetR44_2
+Added Pin To Net: NetName=NetR45_2 Pin=R45-2
+Added Pin To Net: NetName=NetR45_2 Pin=R46-1
+Added Net: Name=NetR45_2
+Added Member To Class: ClassName=vi_measurement Member=Component R37 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R38 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R39 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R40 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R41 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R42 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R43 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R44 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R45 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component R46 Resistor
+Added Member To Class: ClassName=vi_measurement Member=Component U2 AMC1200

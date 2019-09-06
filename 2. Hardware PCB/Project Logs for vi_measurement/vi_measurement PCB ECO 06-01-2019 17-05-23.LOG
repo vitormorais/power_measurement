@@ -1,0 +1,11 @@
+Added Component: Designator=C10(CAPC_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R35(RESC_0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Vamp1 Pin=C10-1
+Added Pin To Net: NetName=Vamp2 Pin=C10-2
+Added Pin To Net: NetName=Vamp1 Pin=R35-1
+Added Pin To Net: NetName=Vamp2 Pin=R35-2
+Added Member To Class: ClassName=vi_measurement Member=Component C10 Capacitor SMD
+Added Member To Class: ClassName=vi_measurement Member=Component R35 R_MEAS
+Added Member To Class: ClassName=vi_measurement Member=Component U1 DC/DC_ISO
