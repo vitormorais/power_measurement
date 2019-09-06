@@ -1,4 +1,4 @@
-#Power Measurement Development Repository
+# Power Measurement Development Repository
 
 ### Features
 
@@ -7,6 +7,11 @@
 ### How to use
 
 - Download the 2. Hardware PCB.zip file for further development with altium
+
+### TODO
+
+- Add multisim files
+- create routing board for XMC4500
 
 ### DEMO
 
