@@ -15,9 +15,8 @@
 
 ### DEMO
 
-[![c_sharp](https://i.imgur.com/11WRs3h.png "c_sharp")](https://i.imgur.com/11WRs3h.png "c_sharp")
-[![board](https://i.imgur.com/ox0agaP.png "board")](https://i.imgur.com/ox0agaP.png "board")
-
+<a href="url"><img src="https://i.imgur.com/11WRs3h.png" width="60%" ></a>
+<a href="url"><img src="https://i.imgur.com/ox0agaP.png" width="60%" ></a>
 
 
 ------------
