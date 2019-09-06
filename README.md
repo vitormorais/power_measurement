@@ -17,3 +17,5 @@
 
 
 ### How to use
+
+- Download the 2. Hardware PCB.zip file for further development with altium
